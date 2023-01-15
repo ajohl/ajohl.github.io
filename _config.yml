@@ -1,0 +1,44 @@
+# site settings
+title: title 
+subtitle: subtitle 
+email: youremailaddress@gmail.com
+description: DESCRIPTION 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author: author
+street_address: 
+city: city
+state: state
+zip_code: 
+country: country
+phone: 
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/ajohl
+  GitLab:
+  Google-Plus: 
+  Instagram:
+  LinkedIn: 
+  Twitter: 
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
